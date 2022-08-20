@@ -12,11 +12,12 @@ username: 'userdemo',
 password: 'demouser'
 
 How to use:
+(update: change localhost:4000 => api-12322.herokuapp.com )
 
 1.login 
 
 curl --request POST \
-  --url http://localhost:4000/login \
+  --url https://api-12322.herokuapp.com/login \
   --header 'Content-Type: application/x-www-form-urlencoded' \
   --data username=userdemo \
   --data password=demouser
